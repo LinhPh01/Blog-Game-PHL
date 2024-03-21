@@ -1,12 +1,21 @@
-import React from "react";
-import Nav from "./Components/Nav";
+import React, { useState } from "react";
+import Nav from "../Components/Nav";
+import MobileNav from "@/Components/MobileNav";
+import Hero from "@/Components/Hero";
 
 const Home = () => {
-  return <div className="overflow-x-hidden">
+  const [nav, setNav] = useState(false);
+  const openNav = () => setNav(true);
+  const closeNav = () => setNav(false);
+  return (<div className="overflow-x-hidden">
       <div>
-        <Nav/>
+        {/* Navbar */}
+        <MobileNav nav={nav} closeNav={closeNav}/>
+        <Nav openNav={openNav}/>
+        {/* Hero section */}
+        <Hero/>
       </div>
-    </div>;
+    </div>);
 };
 
 export default Home
