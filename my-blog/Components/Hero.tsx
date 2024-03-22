@@ -9,12 +9,12 @@ import Animation from './Animation'
 
 const Hero = () => {
   return (
-    <div className="h-[88vh] vg-[url('/images/banner.jpg')] bg-cover bg-center">
+    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
           <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-            Chào mừng đến với Blog Game PHL <span className='text-yellow-400'>hehe</span>
+            Chào mừng đến với Blog Game <span className='text-yellow-400'>PHL</span>
           </h1>
           <TextEffect />
         </div>

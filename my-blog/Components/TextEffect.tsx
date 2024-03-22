@@ -5,7 +5,7 @@ const TextEffect = () => {
         <TypeAnimation
             sequence={[
                 // Same substring at the start will only be typed out once, initially
-                'Nơi update thông tin',
+                'Nơi update meta',
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 'Thảo luận',
                 1000,

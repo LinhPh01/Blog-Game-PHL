@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Transition } from '@headlessui/react';
 
-const images = ["/images/pic3.gif", "/images/pic2.gif", "/images/pic1.gif"];
+const images = ["/images/pic2.gif", "/images/pic3.gif", "/images/pic1.gif"];
 
 const Animation: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -10,7 +10,7 @@ const Animation: React.FC = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 3000);
+        }, 2000);
 
         return () => clearInterval(intervalId);
     }, []);
