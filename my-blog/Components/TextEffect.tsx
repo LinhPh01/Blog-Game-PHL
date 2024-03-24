@@ -14,7 +14,7 @@ const TextEffect = () => {
                 'về game',
                 1000
             ]}
-            speed={50}
+            speed={20}
             className='text-[2rem] md:text-[3rem] text-[#55e6a5] font-bold uppercase'
             repeat={Infinity}
         />
