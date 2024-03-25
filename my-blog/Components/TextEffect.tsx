@@ -6,16 +6,16 @@ const TextEffect = () => {
             sequence={[
                 // Same substring at the start will only be typed out once, initially
                 'Nơi update meta',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1500, // wait 1s before replacing "Mice" with "Hamsters"
                 'Thảo luận',
-                1000,
+                1500,
                 'Đưa ra lối chơi',
-                1000,
+                1500,
                 'về game',
-                1000
+                1500
             ]}
             speed={20}
-            className='text-[2rem] md:text-[3rem] text-[#55e6a5] font-bold uppercase'
+            className='text-[2rem] md:text-[3rem] text-[#60A5FA] font-semibold uppercase'
             repeat={Infinity}
         />
     );

@@ -19,7 +19,7 @@ const Hero = () => {
           <TextEffect />
         </div>
 
-        <div className='w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px] transition-transform duration-1000 ease-in-out transform scale-0 lg:scale-100'>
+        <div className='w-[500px] hidden bg-[#60A5FA] relative lg:flex items-center rounded-full h-[500px] transition-transform duration-1000 ease-in-out transform scale-0 lg:scale-100'>
           <Image src="/images/pic1.gif" alt='user' layout='fill' className='object-cover rounded-full' />
           <Image src="/images/pic2.gif" alt='user' layout='fill' className='object-cover rounded-full' />
           <Image src="/images/pic3.gif" alt='user' layout='fill' className='object-cover rounded-full' />
