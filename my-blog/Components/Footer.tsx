@@ -38,14 +38,14 @@ const Footer = () => {
 
         </div>
         <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between">
-            <div className="text-[22px] mb-[2rem] md:mb-0 text-white opacity-20">
+            <div className="text-[22px] mb-[2rem] md:mb-0 text-white opacity-60">
                 Production in 2024
             </div>
             <div className="flex items-center space-x-10">
-                <p className="text-[22px] text-white opacity-20">About</p>
-                <p className="text-[22px] text-white opacity-20">Privacy Policy</p>
-                <p className="text-[22px] text-white opacity-20">Licensing</p>
-                <p className="text-[22px] text-white opacity-20">Contact</p>
+                <p className="nav-link">About</p>
+                <p className="nav-link">Privacy Policy</p>
+                <p className="nav-link">Licensing</p>
+                <p className="nav-link">Contact</p>
             </div>
         </div>
     </div>

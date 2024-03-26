@@ -20,7 +20,7 @@ const Blog = () => {
                         layout="fill" 
                         className="object-cover"/>
                 </div>
-                <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem]">
+                <div className="w-[90%] text-center mx-auto bg-[#071225] relative p-[2rem] mt-[-1rem]">
                 <div className="w-fit px-[2rem] py-[1rem] bg-[#60A5FA] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                     March 26, 2024
                 </div>
@@ -43,7 +43,7 @@ const Blog = () => {
                         layout="fill" 
                         className="object-cover"/>
                 </div>
-                <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem]">
+                <div className="w-[90%] text-center mx-auto bg-[#071225] relative p-[2rem] mt-[-1rem]">
                 <div className="w-fit px-[2rem] py-[1rem] bg-[#60A5FA] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                     March 26, 2024
                 </div>
@@ -66,7 +66,7 @@ const Blog = () => {
                         layout="fill" 
                         className="object-cover"/>
                 </div>
-                <div className="w-[90%] text-center mx-auto bg-[#09101a] relative p-[2rem] mt-[-1rem]">
+                <div className="w-[90%] text-center mx-auto bg-[#071225] relative p-[2rem] mt-[-1rem]">
                 <div className="w-fit px-[2rem] py-[1rem] bg-[#60A5FA] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                     March 26, 2024
                 </div>

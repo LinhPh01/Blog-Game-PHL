@@ -5,13 +5,13 @@ const TextEffect = () => {
         <TypeAnimation
             sequence={[
                 // Same substring at the start will only be typed out once, initially
-                'Nơi update meta',
+                'About Game!',
                 1500, // wait 1s before replacing "Mice" with "Hamsters"
-                'Thảo luận',
+                'Discussion!',
                 1500,
-                'Đưa ra lối chơi',
+                'Update New Meta!',
                 1500,
-                'về game',
+                'Find New Build!',
                 1500
             ]}
             speed={20}
