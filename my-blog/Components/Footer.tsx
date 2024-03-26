@@ -3,49 +3,44 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="pt-[8rem] pb-[4rem] bg-[#02050a]">
-        <div className="grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-[80%] mx-auto gap-[3rem]">
+    <div className="pt-8 pb-4 bg-[#02050a]">
+        <div className="grid border-b-1 pb-6 border-gray-400 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-11/12 mx-auto lg:w-4/5 gap-6 md:gap-3">
             <div className="flex items-center space-x-6">
-                <div className="md:w[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#60A5FA]">
-                    <MapIcon className="md:w-[4rem] md:h-[4rem] w-[3.5rem] text-black"/>
-
+                <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center rounded-full bg-[#60A5FA]">
+                    <MapIcon className="w-10 h-10 md:w-12 md:h-12 text-black"/>
                 </div>
                 <div>
-                    <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">Address</h1>
-                    <p className="text-[17px] w-[90%] text-white opacity-60">TP.HCM</p>
+                    <h1 className="text-xl mb-1 font-semibold text-white">Address</h1>
+                    <p className="text-sm w-[90%] text-white opacity-60">TP.HCM</p>
                 </div>
             </div>
             <div className="flex items-center space-x-6">
-                <div className="md:w[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#60A5FA]">
-                    <DevicePhoneMobileIcon className="md:w-[4rem] md:h-[4rem] w-[3.5rem] text-black"/>
-
+                <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center rounded-full bg-[#60A5FA]">
+                    <DevicePhoneMobileIcon className="w-10 h-10 md:w-12 md:h-12 text-black"/>
                 </div>
                 <div>
-                    <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">Phone</h1>
-                    <p className="text-[17px] w-[90%] text-white opacity-60">+84931305101</p>
+                    <h1 className="text-xl mb-1 font-semibold text-white">Phone</h1>
+                    <p className="text-sm w-[90%] text-white opacity-60">+84931305101</p>
                 </div>
             </div>
             <div className="flex items-center space-x-6">
-                <div className="md:w[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#60A5FA]">
-                    <EnvelopeIcon className="md:w-[4rem] md:h-[4rem] w-[3.5rem] text-black"/>
-
+                <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center rounded-full bg-[#60A5FA]">
+                    <EnvelopeIcon className="w-10 h-10 md:w-12 md:h-12 text-black"/>
                 </div>
                 <div>
-                    <h1 className="text-[25px] mb-[0.2rem] font-semibold text-white">Mail</h1>
-                    <p className="text-[17px] w-[90%] text-white opacity-60">phamhoailinh779@gmail.com</p>
+                    <h1 className="text-xl mb-1 font-semibold text-white">Mail</h1>
+                    <p className="text-sm w-[90%] text-white opacity-60">phamhoailinh779@gmail.com</p>
                 </div>
             </div>
-
         </div>
-        <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between">
-            <div className="text-[22px] mb-[2rem] md:mb-0 text-white opacity-60">
+        <div className="w-11/12 mt-2 mx-auto lg:w-4/5 grid grid-cols-1 md:grid-cols-2 items-center justify-between">
+            <div className="text-lg md:text-xl mb-2 md:mb-0 text-white opacity-60">
                 Production in 2024
             </div>
-            <div className="flex items-center space-x-10">
-                <p className="nav-link">About</p>
-                <p className="nav-link">Privacy Policy</p>
-                <p className="nav-link">Licensing</p>
-                <p className="nav-link">Contact</p>
+            <div className="flex justify-center space-x-6">
+                <p className="text-sm text-white opacity-80">PrivacyPolicy</p>
+                <p className="text-sm text-white opacity-80">Licensing</p>
+                <p className="text-sm text-white opacity-80">Contact</p>
             </div>
         </div>
     </div>
