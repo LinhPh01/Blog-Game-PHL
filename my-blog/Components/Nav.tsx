@@ -10,7 +10,7 @@ const Nav: React.FC<Props> = ({ openNav }) => {
         <div className="sticky top-0 bg-black shadow-md">
             <div className="container mx-auto px-4 md:px-0 flex items-center justify-between h-16">
                 <h1 className="cursor-pointer text-white text-xl md:text-2xl">
-                    <img className="h-12" src="/images/Blog.png" alt="My Blog" />
+                    <img className="h-12" src="/images/icon.gif" alt="My Blog" />
                 </h1>
                 <div className="hidden md:flex justify-center space-x-4">
                     <div className="nav-link">Home</div>
